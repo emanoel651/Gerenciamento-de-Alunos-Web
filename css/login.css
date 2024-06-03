@@ -1,0 +1,77 @@
+/* Estilos gerais */
+body {
+    background-color: rgb(0, 31, 63);
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0; /* Remova as margens padrão do body */
+}
+
+body h1 {
+    color: white;
+    font-size: 30px;
+}
+/* Estilização para a caixa de login */
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end; /* Alinha os elementos na parte inferior */
+    background-color: rgb(34, 34, 39); /* Fundo cinza escuro */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto; /* Centraliza horizontalmente */
+    max-width: 400px; /* Define a largura máxima da caixa */
+    box-shadow: 0 0 10px rgba(27, 99, 172, 0.5); /* Sombra para destacar a caixa */
+}
+/* Estilização para centralizar a div na tela */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh; /* Altura da tela inteira */
+}
+/* Estilização para os campos de entrada */
+input {
+    width: 94%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+/* Estilização para o botão de envio */
+.inputSubmit {
+    background-color: #0074D9;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.8s ease; /* Transição suave ao passar o mouse */
+}
+
+.inputSubmit:hover {
+    background-color: #001f3f;
+}
+
+/* Estilização para o link "Voltar" */
+/* Estilização para o botão "Voltar" */
+.back {
+    position: absolute;
+    left: 30px; /* Distância da esquerda */
+    top: -5px; /* Distância do topo (ajuste conforme necessário) */
+    border-radius: 10px;
+    background-color: #FF4136;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center; /* Alinha verticalmente ao centro */
+    transition: background-color 0.8s ease; /* Transição suave ao passar o mouse */
+}
+.back:hover {
+    background-color: #520f0c;
+}
+

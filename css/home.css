@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(0, 31, 63);
+    font-weight: bold;
+}
+
+
+/* Estilização para a caixa principal */
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end; /* Alinha os elementos na parte inferior */
+    background-color: rgb(34, 34, 39); /* Fundo cinza escuro */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto; /* Centraliza horizontalmente */
+    max-width: 400px; /* Define a largura máxima da caixa */
+    box-shadow: 0 0 10px rgba(27, 99, 172, 0.5); /* Sombra para destacar a caixa */
+}
+/* Estilização para centralizar a div na tela */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh; /* Altura da tela inteira */
+}
+
+
+/* Texto "Seja bem vindo" */
+body h1 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+/* Texto "Entre com suas credenciais" */
+body h2 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Estilização para os botões */
+.button-primary,
+.button-secondary {
+    display: inline-block; /* Exibe os botões lado a lado */
+    width: 50%; /* Divide o espaço igualmente entre os botões */
+    margin: 5px 0;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.8s ease; /* Transição suave ao passar o mouse */
+}
+
+.button-primary {
+    background-color: #0074D9; /* Azul */
+}
+
+.button-secondary {
+    background-color: #FF4136; /* Vermelho */
+}
+
+/* Efeito de hover nos botões */
+.button-primary:hover {
+    background-color: #001f3f; /* Azul escuro ou vermelho escuro ao passar o mouse */
+}
+.button-secondary:hover {
+    background-color: #520f0c; /* Azul escuro ou vermelho escuro ao passar o mouse */
+}

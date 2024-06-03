@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #0074D9, rgb(41, 182, 182));
+    color: white;
+    text-align: left;
+    position: relative;
+}
+.cadastrar {
+    position: absolute;
+    top: 10px;
+    right: 100px;
+    background-color: #0074D9; /* Verde Escuro */
+    border-color: #0074D9; /* Verde Escuro */
+    border-radius: 20px;
+    padding: 6px;
+    color: white;
+    text-decoration: none;
+    
+}
+.cadastrar:hover {
+    background-color: #001f3f; /* Verde mais escuro ao passar o mouse */
+    border-color: #001f3f; /* Verde mais escuro ao passar o mouse */
+}
+.table-bg {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px 10px 0 0;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn-exit {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    background-color: #0074D9; /* Verde Escuro */
+    border-color: #0074D9; /* Verde Escuro */
+    border-radius: 20px;
+}
+.btn-exit:hover {
+    background-color: #001f3f; /* Verde mais escuro ao passar o mouse */
+    border-color: #001f3f; /* Verde mais escuro ao passar o mouse */
+}
+.btn-edit, .btn-delete {
+    margin-right: 5px;
+}

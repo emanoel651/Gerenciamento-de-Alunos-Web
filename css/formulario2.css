@@ -1,0 +1,94 @@
+/* Estilos gerais */
+body {
+    color: white;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    background-color: rgb(0, 31, 63);
+}
+
+/* Container principal */
+.princip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Formulário */
+.forma-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(34, 34, 39);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(27, 99, 172, 0.5);
+}
+
+.forma-container h1,
+.forma-container h2,
+.forma-container h4,
+.forma-container label {
+    color: white;
+}
+
+.forma-container h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.forma-container h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.forma-container h4 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.forma-container label {
+    margin-bottom: 5px;
+}
+
+/* Campos de entrada */
+.inputUser {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Botão de envio */
+#submit {
+    background-color: #0074D9;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.8s ease;
+}
+
+#submit:hover {
+    background-color: #001f3f;
+}
+
+/* Link "Acessar minha conta" */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: #0074D9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
